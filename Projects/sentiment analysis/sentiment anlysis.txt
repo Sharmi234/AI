@@ -1,0 +1,56 @@
+Sentiment analysis using NLTK
+
+NLP
+* natural language processing/NLP is defined as the automatic manipulation of natural language like speech and text by software.
+
+NLP pipeline
+* to design a program where the output of one module feeds to the input of the next.
+
+in data cleaning we convert the raw text into a list of words that are clean text.
+data cleaning techniques are tokeniation, Stopwords removal,stemming.
+
+tokenization-> splitting the paragraph or text documents into smaller individual words
+small units is called tokens
+stopwords removal-> filtering words because model shouldnt be complicated
+stemming->reducing into root form.
+vectorization-> converting words into numbers
+perform calssification/text classification-> assigning tags/categories to text according to its content
+
+NLTK
+natural language toolkit
+
+plaform used for building python programs that work with human language data for applying in statistical natural language processing
+
+for getting dataset we use sklearn.datasets importfetch_20newsgroups
+
+it will result bunch, u can check by type text_data
+so convert to list we use numpy
+
+1.convert to lower text
+cleaning
+str.lower->inbuilt function
+so converting uppercase into lowercase of data
+
+2.tokenize
+we use sentence and word tokenize
+and downloading a library called punkt
+list comphrension-> for loop wil be in list itself
+so converted paragraph->sentences-> word token
+may be in mid regular expressions might found so we are importing re
+and v hd 1 dimensions now will make it as 2 dimension
+
+3.stopwords
+next is stopwords, so will be importing
+
+4.stemming
+there is more stemming packages so we use limitization
+
+5.limitization
+
+naive bayes algorithm->base theorm
+
+classification->  categories data on characterization
+
+
+
+
